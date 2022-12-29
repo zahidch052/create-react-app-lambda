@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+}
+
+main {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.sidebar {
+    background: white;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+}
+
+.brandName {
+    color: #ECB01C;
+}
+
+.top_section {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.logo {
+    color: #ECB01C;
+}
+
+.bars {
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+    color: #FFC943;
+}
+
+.links {
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    background: #ECECEC;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.004em;
+    color: #000000;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.links:hover {
+    background: #FFC943;
+    color: white;
+    transition: all 0.5s;
+}
+
+.links.active {
+    background: linear-gradient(224.53deg, #FFC943 0%, #ECB01C 99.2%);
+    box-shadow: -1px 1px 8px rgba(236, 176, 28, 0.44);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.icon,
+.link_text {
+    font-size: 14px;
+}

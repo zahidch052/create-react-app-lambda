@@ -1,0 +1,109 @@
+.loginbtn {
+    height: 45px;
+    background: #ECB01C;
+    border-radius: 8px;
+    width: 100%;
+    border: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.demoAccount-btn {
+    background: #FFFFFF;
+    border: 1px solid #9C0D00;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 135.5%;
+    color: #9C0D00;
+    height: 45px;
+    width: 100%;
+}
+
+.liveAccount-btn {
+    background: #FFFFFF;
+    border: 1px solid #1C416D;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 135.5%;
+    color: #1C416D;
+    height: 45px;
+    width: 100%;
+}
+
+.backgroundWite {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+.demologinbtn {
+    height: 77px;
+    background: #ECB01C;
+    border-radius: 8px;
+    width: 100%;
+    border: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.yellowOutline-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #ECB01C;
+    padding: 6px 16px 6px 10px;
+    background: #FFFFFF;
+    border: 1px solid #ECB01C;
+    border-radius: 2px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sell-btn,
+.Buy-btn {
+    background: #EC1C1C;
+    border-radius: 2px;
+    height: 43px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.004em;
+    color: #FFFFFF;
+    width: 90%;
+    border: 0;
+}
+
+.Buy-btn {
+    background: #201CEC;
+}
+
+.yellow-btn {
+    height: 43px;
+    background: #ECB01C;
+    border-radius: 2px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    width: 100%;
+    border: 0;
+}

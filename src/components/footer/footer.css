@@ -1,0 +1,34 @@
+.yellowrightborder {
+    border-right: 1px solid #ECB01C;
+    padding-right: 10px;
+}
+
+
+
+/* footer {
+    width: 100%;
+    bottom: 0;
+    background: white;
+} */
+
+/* .footer {
+    position: fixed;
+    bottom: 0;
+    min-width: 70%;
+    max-width: 100%;
+    background-color: white;
+    margin-right: 20px;
+    overflow: auto;
+} */
+
+.footer {
+    background-color: white;
+    overflow: auto;
+    width: 100%;
+}
+
+.footer-div {
+    position: absolute;
+    bottom: 0;
+    margin-right: 21px;
+}

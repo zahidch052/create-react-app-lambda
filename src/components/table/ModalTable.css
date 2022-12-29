@@ -1,0 +1,140 @@
+.customScrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.customScrollbar::-webkit-scrollbar {
+    /* background-color: #CAE9FC; */
+    background-color: transparent;
+}
+
+.customScrollbar {
+    /* scrollbar-color: #42A4DF #CAE9FC; */
+    scrollbar-color: transparent;
+}
+
+.customScrollbar::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    /* background-color: #42A4DF; */
+    background-color: transparent;
+}
+
+.modal-dialog {
+    width: 100%;
+}
+
+.modalTable thead {
+    border: 1px solid #ECB01C;
+}
+
+
+.modalTable thead th {
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    color: #000000;
+    height: 40px;
+    vertical-align: middle !important;
+    text-align: start;
+    width: 0;
+    border: 1px solid #ECB01C;
+    border-bottom: 1px solid #ECB01C;
+    padding-left: 5px;
+}
+
+.modalTable>:not(:last-child)>:last-child>* {
+    border-bottom-color: #ECB01C;
+}
+
+.modalTable tbody {
+    /* border-top: 0px !important; */
+    border: 1px solid #ECB01C;
+}
+
+.modalTable tbody img {
+    object-fit: contain;
+}
+
+.modalTable td,
+.modalTable th {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.modalTable th {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    text-align: end;
+}
+
+
+.modalTable td {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+
+    vertical-align: middle !important;
+    font-style: normal;
+    text-align: start;
+    background-color: transparent;
+    border-bottom: 1px solid transparent !important;
+    width: 0;
+    border: 1px solid #ECB01C;
+    padding-left: 5px;
+}
+
+.modalTable {
+    margin-bottom: 0px !important;
+    width: 100%;
+}
+
+.ModaltableSelect {
+    border: 0;
+    width: 100%;
+}
+
+.show>.btn-primary.tabs-dropdown-toggle {
+    color: #313131;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.dropdown-toggle:focus {
+    outline: none !important;
+    box-shadow: transparent !important;
+}
+
+.btn-primary:focus {
+    background: #FAFAFA;
+    border: 1px solid #DCDCDC;
+    border-radius: 2px;
+    color: #313131;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.dropdown-toggle:hover {
+    background: #FAFAFA;
+    border: 1px solid #DCDCDC;
+    border-radius: 2px;
+    color: #313131;
+}
+
+.modal-dropdown-tabs .nav-link {
+    background: 0 0;
+    border: 0;
+    border-radius: 0.25rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    color: #313131;
+    padding: 0px 0px 0px 10px;
+}
+
+.modal-dropdown-tabs .nav-link.active {
+    font-size: 12px;
+    height: 30px;
+    background: #ECB01C;
+}
